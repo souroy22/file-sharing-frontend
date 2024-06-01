@@ -1,0 +1,36 @@
+.download_container {
+  min-width: 400px;
+  background-color: #edf5fe;
+  min-height: 100dvh;
+  /* padding: 6px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download_wrapper {
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #afafaf, -5px -5px 10px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  /* padding: 25px 0px; */
+  min-width: 90%;
+  min-height: 400px;
+  /* max-width: 30%; */
+}
+
+button.download_file {
+  background-color: #027fc4;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.grey_text {
+  color: #969696;
+}
