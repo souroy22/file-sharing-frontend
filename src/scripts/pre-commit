@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Run the build script
+npm run build
+
+# Check if build succeeded
+if [ $? -ne 0 ]; then
+  echo "Build failed. Aborting commit."
+  exit 1
+fi
